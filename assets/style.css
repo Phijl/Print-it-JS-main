@@ -150,12 +150,12 @@ header {
 	cursor: pointer;
 }
 /* Gestion des points du carrousel */
-.dots {
+#bullet-points {
 	position: absolute;
 	bottom: 40px;
 	display: flex;
 }
-.dot {
+#bullet-points li {
 	margin-inline: 5px;
 	width: 13px;
 	height: 13px;
@@ -164,7 +164,7 @@ header {
 	border-radius: 100%;
 	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);;
 }
-.dot_selected {
+#bullet-points li.current-slide {
 	background-color: #fff;
 }
 /* Fin du code CSS pour le carousel */

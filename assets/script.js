@@ -53,8 +53,6 @@ function updateBulletPoints() {
     // Ajouter les nouveaux bullet points
     for (let i = 0; i < slides.length; i++) {
         const bulletPoint = document.createElement("li");
-       // bulletPoint.addEventListener("click", function() {
-        //    goToSlide(i);    
 		if (i === numero) {
             bulletPoint.classList.add("current-slide");
         }  

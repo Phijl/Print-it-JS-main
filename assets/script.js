@@ -31,11 +31,3 @@ function ChangeSlide(sens) {
 setInterval(function() {
 	ChangeSlide(1);
 }, 8000);
-
-
-
-
-
-
-
-
